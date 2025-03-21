@@ -29,8 +29,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/JGKhushi/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0206-reverse-linked-list](https://github.com/JGKhushi/LeetCode/tree/master/0206-reverse-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/JGKhushi/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/JGKhushi/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
