@@ -13,18 +13,15 @@ public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int count = 0 ;
         ListNode ans = new ListNode();
-       
-
-        ListNode A = new ListNode();
-        A = headA;
+    
         ListNode B = new ListNode();
         B= headB;
         while(headA != null){
             headB = B;
             while(headB != null){
                 if(headA == headB){
-                    ans = headA;
-                        return ans;
+                   
+                        return headA;
                 }
                 headB = headB.next;
             }
