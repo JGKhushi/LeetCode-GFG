@@ -24,15 +24,7 @@ public class Solution {
             while(headB != null){
                 if(headA == headB){
                     ans = headA;
-                    while((headA == headB) && headA.next != null && headB.next != null){
-                        
-                            headA = headA.next;
-                            headB = headB.next;
-                        
-                    }
-                    if(headA.next == null && headB.next == null){
                         return ans;
-                    }
                 }
                 headB = headB.next;
             }
