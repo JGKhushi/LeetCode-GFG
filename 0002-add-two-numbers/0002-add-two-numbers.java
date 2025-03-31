@@ -57,9 +57,7 @@ class Solution {
            ans.next = new ListNode();
            ans = ans.next;
            }
-           
-
-            A = A.next;
+           A = A.next;
            
             }
             
