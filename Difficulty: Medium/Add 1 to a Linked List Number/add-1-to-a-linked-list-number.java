@@ -55,43 +55,48 @@ class Node{
     }
 }
 */
+
 class Solution {
     public Node addOne(Node head) {
-        // Reverse the linked list
+       
+        // code here.
         head = reverse(head);
-        
-        Node curr = head;
         int carry = 1;
+        Node curr = head;
         
-        while (curr != null) {
-            curr.data += carry;
-            if (curr.data < 10) {
-                carry = 0; // No carry to propagate
+        while(curr != null){
+            curr.data += carry ;
+            if(curr.data < 10){
+                carry = 0 ;
                 break;
-            } else {
-                curr.data = 0; // Reset to 0 and propagate carry
-                if (curr.next == null) {
-                    curr.next = new Node(1); // Add new node for carry
-                    carry = 0;
+            }
+            else{
+                curr.data = 0;
+                if(curr.next == null){
+                    curr.next  = new Node(1);
+                     carry = 0;
                 }
             }
             curr = curr.next;
         }
         
-        // Reverse back to restore original order
         return reverse(head);
+        
     }
-
-    // Helper function to reverse a linked list
-    private Node reverse(Node head) {
-        Node prev = null;
+    
+    public Node reverse(Node head){
         Node curr = head;
-        while (curr != null) {
-            Node next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
+        Node prev = null;
+        while(curr != null){
+           Node next =  curr.next;
+           curr.next = prev;
+           prev = curr;
+           curr = next;
+            
         }
+        
         return prev;
     }
+    
+    
 }
