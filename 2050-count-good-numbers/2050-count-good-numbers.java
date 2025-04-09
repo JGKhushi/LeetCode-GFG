@@ -2,13 +2,15 @@ class Solution {
     int mod = 1000000007;
 
     public int countGoodNumbers(long n) {
-        long evenCount = (n + 1) / 2;  // even indices
-        long oddCount = n / 2;         // odd indices
+       
 
-        long evenWays = fastPower(5, evenCount);
-        long oddWays = fastPower(4, oddCount);
+        long evenWays = fastPower(20, n/2);
+        // long oddWays = fastPower(4, oddCount);
 
-        return (int)((evenWays * oddWays) % mod);
+if(n%2 == 1){
+    evenWays*=5;
+}
+        return (int)((evenWays) % mod);
     }
 
     private long fastPower(long base, long power) {
