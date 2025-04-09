@@ -5,7 +5,7 @@ class Solution {
        
 
         long evenWays = fastPower(20, n/2);
-        // long oddWays = fastPower(4, oddCount);
+       
 
 if(n%2 == 1){
     evenWays*=5;
@@ -15,7 +15,7 @@ if(n%2 == 1){
 
     private long fastPower(long base, long power) {
         long result = 1;
-        base = base % mod;
+   
 
         while (power > 0) {
             if (power % 2 == 1) {
