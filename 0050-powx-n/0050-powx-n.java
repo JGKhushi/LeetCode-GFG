@@ -1,21 +1,19 @@
 class Solution {
     public double myPow(double x, int n) {
-        // Convert to long to avoid overflow
-        long power = n;
-        
-        // Handle negative powers
-        if (power < 0) {
+        long N = n; // Convert to long to handle Integer.MIN_VALUE
+
+        if (N < 0) {
             x = 1 / x;
-            power = -power;
+            N = -N;
         }
 
-        return fastPower(x, power);
+        return power(x, N);
     }
 
-    private double fastPower(double x, long n) {
+    public double power(double x, long n) {
         if (n == 0) return 1;
 
-        double temp = fastPower(x, n / 2);
+        double temp = power(x, n / 2);
         if (n % 2 == 0) {
             return temp * temp;
         } else {
