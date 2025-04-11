@@ -81,4 +81,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/JGKhushi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/JGKhushi/LeetCode/tree/master/0050-powx-n) |
 | [2050-count-good-numbers](https://github.com/JGKhushi/LeetCode/tree/master/2050-count-good-numbers) |
+| [2998-count-symmetric-integers](https://github.com/JGKhushi/LeetCode/tree/master/2998-count-symmetric-integers) |
+## Enumeration
+|  |
+| ------- |
+| [2998-count-symmetric-integers](https://github.com/JGKhushi/LeetCode/tree/master/2998-count-symmetric-integers) |
 <!---LeetCode Topics End-->
