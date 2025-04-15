@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 | [1656-count-good-triplets](https://github.com/JGKhushi/LeetCode/tree/master/1656-count-good-triplets) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JGKhushi/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/JGKhushi/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/JGKhushi/LeetCode/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/JGKhushi/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/JGKhushi/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/JGKhushi/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/JGKhushi/LeetCode/tree/master/0148-sort-list) |
+| [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 ## Merge Sort
 |  |
 | ------- |
@@ -90,4 +93,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1656-count-good-triplets](https://github.com/JGKhushi/LeetCode/tree/master/1656-count-good-triplets) |
 | [2998-count-symmetric-integers](https://github.com/JGKhushi/LeetCode/tree/master/2998-count-symmetric-integers) |
+## Greedy
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
