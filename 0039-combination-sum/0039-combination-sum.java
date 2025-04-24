@@ -1,22 +1,37 @@
+import java.util.AbstractList;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        Arrays.sort(candidates); // Sort first
-        List<List<Integer>> res = new ArrayList<>();
-        fn(candidates, target, res, new ArrayList<>(), 0, 0);
-        return res;
-    }
+        return new AbstractList<List<Integer>>(){
+            List<List<Integer>> res = new ArrayList<>();
+            private void backtrack(List<List<Integer>> res, List<Integer> cur, int target, int dep){
+                if(target == 0){
+                    res.add(new ArrayList<>(cur));
+                    return;
+                }
 
-    public void fn(int[] arr, int target, List<List<Integer>> res, List<Integer> temp, int sum, int i) {
-        if (sum == target) {
-            res.add(new ArrayList<>(temp));
-            return;
-        }
+                for(int i = dep; i < candidates.length; i ++){
+                    if(target >= candidates[i]){
+                    cur.add(candidates[i]);
+                    backtrack(res, cur, target - candidates[i], i);
+                    cur.remove(cur.size() - 1);
+                    }
+                }
+            }
+            @Override
+            public List<Integer> get(int index) {
+                if (res.isEmpty()) backtrack(res, new ArrayList<>(), target, 0);
+                return res.get(index);
+            }
 
-        for (int j = i; j < arr.length; j++) {
-            if (sum + arr[j] > target) break; // \U0001f525 Early stop
-            temp.add(arr[j]);
-            fn(arr, target, res, temp, sum + arr[j], j); // reuse current number
-            temp.remove(temp.size() - 1); // backtrack
-        }
+            @Override
+            public int size() {
+                if (res.isEmpty()) backtrack(res, new ArrayList<>(), target, 0);
+                return res.size();
+            }
+        };
     }
 }
