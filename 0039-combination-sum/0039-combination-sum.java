@@ -1,22 +1,25 @@
+import java.util.*;
+
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        Arrays.sort(candidates); // Sort first
+        Arrays.sort(candidates);  // ✅ Sort to make pruning effective
         List<List<Integer>> res = new ArrayList<>();
-        fn(candidates, target, res, new ArrayList<>(), 0, 0);
+        backtrack(candidates, target, 0, new ArrayList<>(), res);
         return res;
     }
 
-    public void fn(int[] arr, int target, List<List<Integer>> res, List<Integer> temp, int sum, int i) {
-        if (sum == target) {
+    private void backtrack(int[] arr, int target, int index, List<Integer> temp, List<List<Integer>> res) {
+        if (target == 0) {
             res.add(new ArrayList<>(temp));
             return;
         }
 
-        for (int j = i; j < arr.length; j++) {
-            if (sum + arr[j] > target) break; // \U0001f525 Early stop
-            temp.add(arr[j]);
-            fn(arr, target, res, temp, sum + arr[j], j); // reuse current number
-            temp.remove(temp.size() - 1); // backtrack
+        for (int i = index; i < arr.length; i++) {
+            if (arr[i] > target) break;  // ✅ Prune the rest if current number > target
+
+            temp.add(arr[i]);
+            backtrack(arr, target - arr[i], i, temp, res);  // i, not i+1 because we can reuse
+            temp.remove(temp.size() - 1); // Backtrack
         }
     }
 }
