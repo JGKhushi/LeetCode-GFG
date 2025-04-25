@@ -1,16 +1,21 @@
-import java.util.Arrays;
-
 class Solution {
     public int singleNumber(int[] nums) {
-        Arrays.sort(nums);
-        int n = nums.length;
+        int result = 0;
 
-        for (int i = 0; i < n - 2; i += 3) {
-            if (nums[i] != nums[i + 1]) {
-                return nums[i];
+        for (int i = 0; i < 32; i++) {
+            int count = 0;
+
+            for (int num : nums) {
+                if (((num >> i) & 1) == 1) {
+                    count++;
+                }
+            }
+
+            if (count % 3 != 0) {
+                result |= (1 << i);
             }
         }
 
-        return nums[n - 1]; // Single number is at the end
+        return result;
     }
 }
