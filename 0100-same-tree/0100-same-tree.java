@@ -15,22 +15,19 @@
  */
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        if(fn(p,q)){
+        // If both nodes are null, they are the same
+        if (p == null && q == null) {
             return true;
         }
-        return false;
-    }
-
-    private boolean fn(TreeNode p , TreeNode q){
-         if (p == null && q == null) {
-            return true;
+        // If one of the nodes is null, they are not the same
+        if (p == null || q == null) {
+            return false;
         }
-        
-        if (p != null && q != null && p.val == q.val) {
-            return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        // If the values of the nodes are different, they are not the same
+        if (p.val != q.val) {
+            return false;
         }
-        
-        return false;       
-
+        // Recursively check the left and right subtrees
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
