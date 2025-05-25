@@ -1,11 +1,11 @@
 class Solution {
     public void rotate(int[] arr, int k) {
         int n = arr.length;
-        if(n==1){
+        if(n<=1 || k==0 ){
             return;
         }
-        int temp[] = new int[n];
-    k = k%n ;
+        k = k%n ;
+        int temp[] = new int[k];
         for(int i = 0 ; i<k ; i++){
            temp[i] = arr[n-k+i]; 
         }
