@@ -5,11 +5,8 @@ class Solution {
         int min = Integer.MAX_VALUE;
         while(low <= high){
             int mid = (low + high ) / 2;
-            if(nums[mid] >= nums[low] && nums[mid] <= nums[high]  ){
-                min =Math.min(min , nums[low]);
-                high = mid - 1;
-            }
-            else if(nums[mid] <= nums[high] && nums[mid] <= nums[low] ){
+            
+             if(nums[mid] <= nums[high] ){
                 min =Math.min(min , nums[mid]);
                 high = mid - 1;
             }else{
