@@ -1,43 +1,33 @@
 class Solution {
     public int minimumDeletions(String word, int k) {
-        HashMap<Character,Integer> hmap = new HashMap<>();
-        int n = word.length();
-
-        for(int i = 0 ; i< n ; i++){
-            hmap.put(word.charAt(i) , hmap.getOrDefault(word.charAt(i) , 0)+1 );
+        int[] freq = new int[26];
+        for(int i = 0 ; i<word.length() ; i++){
+            freq[word.charAt(i) - 'a']++;
         }
+        int ans = Integer.MAX_VALUE;
 
-        int arr[] = new int[hmap.size()];
-
-    
-
-    int idx = 0;
-    for(Map.Entry<Character,Integer> entry : hmap.entrySet()){
-        arr[idx] = entry.getValue();
-        idx++;
-    }
-
-    Arrays.sort(arr);
-
-    int min = Integer.MAX_VALUE;
-   
-
-    for(int i = 0 ; i<arr.length ; i++ ){
-         int del = 0 ;
-        for(int j= 0 ; j< i;j++){
-            del += arr[j];
-        }
-        for(int j  = i ;j<arr.length ;j++){
-            if(arr[j] - arr[i] > k){
-                del += arr[j] - arr[i] - k;
+        for(int i = 0 ; i<26 ; i++){
+            if(freq[i] == 0){
+                continue;
             }
+
+            int delete = 0 ;
+            int curr = freq[i];
+
+            for(int j = 0 ; j<26 ; j++){
+                if(i== j || freq[j] == 0)
+                continue;
+
+                if(freq[j] < curr)
+                delete += freq[j];
+
+                else if(Math.abs(freq[j] - curr) > k)
+                delete += Math.abs(freq[j] - curr) - k ;
+            }
+
+            ans = Math.min(ans,delete);
         }
 
-        min = Math.min(del , min);
-    }
-
-
-       return min; 
-        
+        return ans;
     }
 }
