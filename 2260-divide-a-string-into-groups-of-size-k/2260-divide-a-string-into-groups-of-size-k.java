@@ -1,10 +1,10 @@
 class Solution {
     public String[] divideString(String s, int k, char fill) {
         int n = s.length();
-        int ans_size  = (int)(Math.ceil( n / k));
-        if((ans_size * k) != n){
-            ans_size++;
-        }
+        int ans_size  = (int)(Math.ceil((double)n / k));
+        // if((ans_size * k) != n){
+        //     ans_size++;
+        // }
         String ans[] = new String[ans_size];
         int start = 0 ;
         for(int i = 0  ; i< ans_size ; i++){
