@@ -1,32 +1,29 @@
 class Solution {
     public int[] maxSubsequence(int[] nums, int k) {
         int n = nums.length;
-        
-        // Step 1: Create array of (value, index) pairs
-        int[][] pairs = new int[n][2];
-        for (int i = 0; i < n; i++) {
-            pairs[i][0] = nums[i];  // value
-            pairs[i][1] = i;        // index
+
+        int[] temp = nums.clone(); // original array
+        Arrays.sort(nums);
+
+        // Step 1: Frequency map to count selected values
+        HashMap<Integer, Integer> freq = new HashMap<>();
+        for (int i = n - k; i < n; i++) {
+            freq.put(nums[i], freq.getOrDefault(nums[i], 0) + 1);
         }
-        
-        // Step 2: Sort based on value in descending order
-        Arrays.sort(pairs, (a, b) -> b[0] - a[0]);
-        
-        // Step 3: Take top k elements and store their indices
-        List<Integer> indices = new ArrayList<>();
-        for (int i = 0; i < k; i++) {
-            indices.add(pairs[i][1]);
+
+        // Step 2: Traverse original array and pick values in order using freq map
+        int[] ans = new int[k];
+        int idx = 0;
+
+        for (int i = 0; i < temp.length; i++) {
+            int val = temp[i];
+            if (freq.containsKey(val) && freq.get(val) > 0) {
+                ans[idx++] = val;
+                freq.put(val, freq.get(val) - 1);
+                if (idx == k) break;
+            }
         }
-        
-        // Step 4: Sort indices to maintain original order
-        Collections.sort(indices);
-        
-        // Step 5: Build result array using original indices
-        int[] result = new int[k];
-        for (int i = 0; i < k; i++) {
-            result[i] = nums[indices.get(i)];
-        }
-        
-        return result;
+
+        return ans;
     }
 }
