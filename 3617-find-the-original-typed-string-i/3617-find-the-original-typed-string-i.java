@@ -8,10 +8,9 @@ class Solution {
             char curr = word.charAt(i);
             if(curr == prev){
                 ans++;
-            }
-
+            }else{
             prev = curr;
-            
+            }            
         }
 
        
