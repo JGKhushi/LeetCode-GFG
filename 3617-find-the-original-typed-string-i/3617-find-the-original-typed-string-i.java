@@ -1,13 +1,16 @@
 class Solution {
     public int possibleStringCount(String word) {
         int n= word.length();
-        
+        char prev = word.charAt(0);
         int ans = 1 ;
       
         for(int i = 1 ; i< n ; i++){
-            if(word.charAt(i) == word.charAt(i-1)){
+            char curr = word.charAt(i);
+            if(curr == prev){
                 ans++;
             }
+
+            prev = curr;
             
         }
 
