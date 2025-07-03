@@ -16,10 +16,10 @@ class Solution {
                 return new int[]{midRow , maxCol};
             }
             else if(topIsBig){
-                endRow = midRow - 1;
+                endRow = --midRow;
             }
             else{
-                startRow = midRow + 1;
+                startRow = ++midRow;
             }
         }
 
