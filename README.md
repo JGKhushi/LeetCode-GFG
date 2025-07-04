@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0142-linked-list-cycle-ii](https://github.com/JGKhushi/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/JGKhushi/LeetCode/tree/master/0148-sort-list) |
+| [0151-reverse-words-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/JGKhushi/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/JGKhushi/LeetCode/tree/master/0234-palindrome-linked-list) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0022-generate-parentheses) |
+| [0151-reverse-words-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0151-reverse-words-in-a-string) |
 | [1078-remove-outermost-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1078-remove-outermost-parentheses) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
