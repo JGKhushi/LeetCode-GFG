@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0005-longest-palindromic-substring) |
 | [0018-4sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/JGKhushi/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0020-valid-parentheses) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
