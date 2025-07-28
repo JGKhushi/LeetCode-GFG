@@ -61,11 +61,7 @@ class Solution {
          ListNode mid = divide(head);
          ListNode right = sortList(mid);
          ListNode left = sortList(head);
-         
-        
-
-
-
+     
         // compare and merge
         return merge(left , right );
     }
