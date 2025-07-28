@@ -14,45 +14,45 @@ class Solution {
             return head;
         }
 
-        ListNode slow = head , fast = head , prev = null;
+        ListNode slow = head  , fast = head , prev = null;
 
         while(fast != null && fast.next != null){
             prev = slow;
-            slow = slow.next;
+            slow = slow.next ;
             fast = fast.next.next;
         }
         prev.next = null;
 
-        ListNode L1 =  sortList(head);
-        ListNode L2 =  sortList(slow);
-                 
+        ListNode l1 = sortList(head);
+        ListNode l2 = sortList(slow);
 
-        return   merge(L1 , L2);
+        return merge(l1, l2);
+    
     }
 
-    ListNode merge(ListNode L1 , ListNode L2){
-        ListNode l = new ListNode(0);
-        ListNode prev =  l;
+    public static ListNode merge(ListNode l1 , ListNode l2){
+        ListNode prev = new ListNode(0);
+        ListNode l = prev;
 
-        while(L1 != null && L2 != null){
-            if(L1.val < L2.val){
-                prev.next = L1;
-                L1 = L1.next;
+        while(l1 != null && l2 != null){
+            if(l1.val < l2.val ){
+               l.next =  l1 ;
+                l1 = l1.next ;
+            }else{
+                l.next =  l2;
+                l2 = l2.next;
             }
-            else{
-                prev.next = L2;
-                L2 = L2.next;
-            }
-            prev = prev.next;
+            l = l.next;
         }
 
-        if(L1 != null){
-            prev.next = L1;
+        if(l1 != null){
+            l.next = l1;
         }
-        if(L2 != null){
-            prev.next = L2;
+        if(l2 != null){
+            l.next = l2;
         }
 
-        return l.next;
+        return prev.next;
+
     }
 }
