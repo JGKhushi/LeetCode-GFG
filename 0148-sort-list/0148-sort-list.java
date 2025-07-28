@@ -9,50 +9,64 @@
  * }
  */
 class Solution {
-    public ListNode sortList(ListNode head) {
-        if(head == null || head.next == null){
+
+    public static ListNode divide(ListNode head){
+         if (head == null || head.next == null){
             return head;
         }
-
-        ListNode slow = head  , fast = head , prev = null;
+        ListNode slow = head , fast = head , prev = null;
 
         while(fast != null && fast.next != null){
-            prev = slow;
+            prev  = slow ;
             slow = slow.next ;
-            fast = fast.next.next;
+            fast= fast.next.next;
         }
-        prev.next = null;
-
-        ListNode l1 = sortList(head);
-        ListNode l2 = sortList(slow);
-
-        return merge(l1, l2);
-    
-    }
-
-    public static ListNode merge(ListNode l1 , ListNode l2){
-        ListNode prev = new ListNode(0);
-        ListNode l = prev;
-
-        while(l1 != null && l2 != null){
-            if(l1.val < l2.val ){
-               l.next =  l1 ;
-                l1 = l1.next ;
-            }else{
-                l.next =  l2;
-                l2 = l2.next;
+            if(prev != null){
+            prev.next = null;
             }
-            l = l.next;
+         return slow;
+            }
+
+    public static ListNode merge(ListNode left , ListNode right){
+        ListNode temp = new ListNode(0);
+        ListNode prev = temp ;
+
+        while(left != null && right != null){
+            if(left.val < right.val){
+                prev.next = left ;
+                left = left.next;
+            }
+            else{
+                prev.next = right ;
+                right = right.next; 
+            }
+
+            prev = prev.next;
         }
 
-        if(l1 != null){
-            l.next = l1;
+        if(left != null){
+            prev.next = left;
         }
-        if(l2 != null){
-            l.next = l2;
+        else{
+            prev.next = right ;
         }
 
-        return prev.next;
+        return temp.next;
+    }
+    public ListNode sortList(ListNode head) {
+        if (head == null || head.next == null){
+            return head;
+        }
+        // divide 
+         ListNode mid = divide(head);
+         ListNode right = sortList(mid);
+         ListNode left = sortList(head);
+         
+        
 
+
+
+        // compare and merge
+        return merge(left , right );
     }
 }
