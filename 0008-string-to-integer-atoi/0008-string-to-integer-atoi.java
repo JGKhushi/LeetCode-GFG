@@ -6,25 +6,25 @@ class Solution {
         String res = "";
 
         // 1. Ignore leading whitespaces (ASCII of ' ' is 32)
-        while (i < n && s.charAt(i) == 32) {
+        while (i < n && s.charAt(i) == ' ') {
             i++;
         }
 
         // 2. Handle sign
-        if (i < n && s.charAt(i) == 45) { // '-' => ASCII 45
+        if (i < n && s.charAt(i) == '-') { // '-' => ASCII 45
             isNegative = true;
             i++;
-        } else if (i < n && s.charAt(i) == 43) { // '+' => ASCII 43
+        } else if (i < n && s.charAt(i) == '+') { // '+' => ASCII 43
             i++;
         }
 
         // 3. Ignore leading zeroes (optional)
-        while (i < n && s.charAt(i) == 48) { // '0' => ASCII 48
+        while (i < n && s.charAt(i) == '0') { // '0' => ASCII 48
             i++;
         }
 
         // 4. Take numeric digits only
-        while (i < n && s.charAt(i) >= 48 && s.charAt(i) <= 57) { // between '0' and '9'
+        while (i < n && s.charAt(i) >= '0' && s.charAt(i) <= '9') { // between '0' and '9'
             res += s.charAt(i);
             i++;
         }
@@ -37,7 +37,7 @@ class Solution {
 
 // String ko digit by digit number banao
 for (int j = 0; j < res.length(); j++) {
-    num = num * 10 + (res.charAt(j) - 48); // '0' ka ASCII 48
+    num = num * 10 + (res.charAt(j) - '0'); // '0' ka ASCII 48
     if (num > Integer.MAX_VALUE) {
         break; // overflow hone lage toh ruko
     }
