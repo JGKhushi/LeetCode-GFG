@@ -33,12 +33,26 @@ class Solution {
         if (res.length() == 0) return 0;
 
         // 6. Convert string to number safely using try-catch to avoid overflow
-        try {
-            int num = Integer.parseInt(res);
-            return isNegative ? -num : num;
-        } catch (NumberFormatException e) {
-            // Handle overflow
-            return isNegative ? Integer.MIN_VALUE : Integer.MAX_VALUE;
-        }
+        long num = 0;
+
+// String ko digit by digit number banao
+for (int j = 0; j < res.length(); j++) {
+    num = num * 10 + (res.charAt(j) - 48); // '0' ka ASCII 48
+    if (num > Integer.MAX_VALUE) {
+        break; // overflow hone lage toh ruko
+    }
+}
+
+// Negative sign handle karo
+if (isNegative) {
+    num = -num;
+}
+
+// Clamp result within integer range
+if (num < Integer.MIN_VALUE) return Integer.MIN_VALUE;
+if (num > Integer.MAX_VALUE) return Integer.MAX_VALUE;
+
+return (int) num;
+
     }
 }
