@@ -32,10 +32,10 @@ class Solution {
         // 5. If res is empty, return 0
         if (res.length() == 0) return 0;
 
-        // 6. Convert string to number safely using try-catch to avoid overflow
+        
         long num = 0;
 
-// String ko digit by digit number banao
+// 6. String ko digit by digit number banao
 for (int j = 0; j < res.length(); j++) {
     num = num * 10 + (res.charAt(j) - '0'); // '0' ka ASCII 48
     if (num > Integer.MAX_VALUE) {
@@ -48,7 +48,7 @@ if (isNegative) {
     num = -num;
 }
 
-// Clamp result within integer range
+//7.  Clamp result within integer range
 if (num < Integer.MIN_VALUE) return Integer.MIN_VALUE;
 if (num > Integer.MAX_VALUE) return Integer.MAX_VALUE;
 
