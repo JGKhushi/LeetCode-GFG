@@ -1,7 +1,11 @@
 class Solution {
-    public int myAtoi(String s) {
-        int n = s.length();
-        int i = 0;
+
+    public int fn(String s , int i  ){
+
+         int n = s.length();
+        if(i > n ){
+            return 0;
+        }
         boolean isNegative = false;
         String res = "";
 
@@ -53,6 +57,12 @@ if (num < Integer.MIN_VALUE) return Integer.MIN_VALUE;
 if (num > Integer.MAX_VALUE) return Integer.MAX_VALUE;
 
 return (int) num;
+    }
+
+    public int myAtoi(String s) {
+       
+       return fn(s , 0);
+        
 
     }
 }
