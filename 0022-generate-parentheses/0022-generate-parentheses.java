@@ -1,21 +1,22 @@
 class Solution {
-    public List<String> generateParenthesis(int n) {
-        List<String> ans = new ArrayList<>();
-
-        fn(n,0,0,"",ans);
-        return ans;
-    }
-
-    public static void fn(int n,int open,int close,String str,List<String> ans){
-        if(str.length() == 2*n ){
-            ans.add(str);
-            return;
+    public static void fn(String s  , int n , List<String> ans , int open , int close){
+        if(s.length() == n * 2 ){
+            ans.add(s);
+            return ;
         }
+
         if(open < n){
-            fn(n,open+1,close,str+"(" , ans);
+            fn(s + '(' , n , ans , open + 1 , close);
         }
-        if(close < open){
-            fn(n,open , close+1 , str+")" , ans);
+        if(close < open ){
+            fn(s + ')' , n , ans , open , close + 1);
         }
+    }
+    public List<String> generateParenthesis(int n) {
+        String  s = "";
+        List<String> ans = new ArrayList<>();
+        int open = 0, close = 0 ;
+        fn(s , n , ans,open , close);
+        return ans;
     }
 }
