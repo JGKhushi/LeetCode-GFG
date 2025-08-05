@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0424-longest-repeating-character-replacement) |
 | [0594-longest-harmonious-subsequence](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0594-longest-harmonious-subsequence) |
 | [0966-binary-subarrays-with-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0966-binary-subarrays-with-sum) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JGKhushi/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Prefix Sum
 |  |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/JGKhushi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/JGKhushi/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [3227-find-missing-and-repeated-values](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3227-find-missing-and-repeated-values) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0451-sort-characters-by-frequency) |
 | [1078-remove-outermost-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1078-remove-outermost-parentheses) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2032-largest-odd-number-in-string) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2260-divide-a-string-into-groups-of-size-k) |
