@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/JGKhushi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1646-kth-missing-positive-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/JGKhushi/LeetCode/tree/master/1656-count-good-triplets) |
 | [2047-find-a-peak-element-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2047-find-a-peak-element-ii) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0594-longest-harmonious-subsequence) |
 | [0966-binary-subarrays-with-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0966-binary-subarrays-with-sum) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JGKhushi/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Prefix Sum
 |  |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0966-binary-subarrays-with-sum) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JGKhushi/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Hash Table
 |  |
