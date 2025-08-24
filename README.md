@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/JGKhushi/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0966-binary-subarrays-with-sum) |
+| [1036-rotting-oranges](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/JGKhushi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
 ## Union Find
 |  |
@@ -336,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
+| [1036-rotting-oranges](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
 | [2047-find-a-peak-element-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2047-find-a-peak-element-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3227-find-missing-and-repeated-values) |
