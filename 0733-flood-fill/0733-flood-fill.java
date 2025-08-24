@@ -12,10 +12,11 @@ class Solution {
         int col = image[0].length;
 
             int pc = image[sr][sc];
+            image[sr][sc] = color;
+            
         while(!q.isEmpty()){
             int sz = q.size();
             int[] point = q.poll();
-            image[sr][sc] = color;
             for(int i = 0 ; i< sz ; i++){
                 for(int j = 0 ; j< 4 ; j++){
                 int x = point[0]+dx[j];
