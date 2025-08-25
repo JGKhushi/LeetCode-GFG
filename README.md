@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/JGKhushi/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/JGKhushi/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0560-subarray-sum-equals-k) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
+| [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0733-flood-fill](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
@@ -372,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 ## Memoization
 |  |
