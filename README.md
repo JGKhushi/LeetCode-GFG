@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/JGKhushi/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0594-longest-harmonious-subsequence) |
 | [0733-flood-fill](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0733-flood-fill) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0410-split-array-largest-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0410-split-array-largest-sum) |
+| [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0943-sum-of-subarray-minimums](https://github.com/JGKhushi/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0100-same-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0733-flood-fill](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0733-flood-fill) |
@@ -347,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
+| [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
