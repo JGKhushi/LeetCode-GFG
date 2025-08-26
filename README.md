@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0013-roman-to-integer) |
+| [0127-word-ladder](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0127-word-ladder) |
 | [0142-linked-list-cycle-ii](https://github.com/JGKhushi/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/JGKhushi/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0169-majority-element) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0022-generate-parentheses) |
+| [0127-word-ladder](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0151-reverse-words-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0451-sort-characters-by-frequency) |
@@ -332,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0100-same-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0127-word-ladder](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0127-word-ladder) |
 | [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0653-two-sum-iv-input-is-a-bst) |
