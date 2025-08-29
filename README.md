@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/JGKhushi/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/JGKhushi/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0063-unique-paths-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/JGKhushi/LeetCode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0063-unique-paths-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0063-unique-paths-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0198-house-robber) |
@@ -359,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
