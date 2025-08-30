@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0014-longest-common-prefix) |
 | [0018-4sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0018-4sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0036-valid-sudoku](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/JGKhushi/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/JGKhushi/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0013-roman-to-integer) |
+| [0036-valid-sudoku](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0036-valid-sudoku) |
 | [0127-word-ladder](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0127-word-ladder) |
 | [0142-linked-list-cycle-ii](https://github.com/JGKhushi/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/JGKhushi/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0036-valid-sudoku) |
 | [0063-unique-paths-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
