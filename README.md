@@ -450,4 +450,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0801-is-graph-bipartite) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
