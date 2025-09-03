@@ -1,51 +1,36 @@
 class Solution {
-
     public int myAtoi(String s) {
-        return parse(s, 0, 0, false, false);
-    }
+        s = s.trim();
+        if (s.length() == 0) return 0;
 
-    private int parse(String s, int i, long num, boolean isNegative, boolean signSeen) {
         int n = s.length();
-        
-        // Base case: end of string
-        if (i >= n) {
-            return (int) clamp(num, isNegative);
+        int sign = 1;
+        int i = 0;
+        long ans = 0;
+
+        if (s.charAt(0) == '-') {
+            sign = -1;
+            i++;
+        } else if (s.charAt(0) == '+') {
+            i++;
         }
 
-        char ch = s.charAt(i);
+        for (; i < n; i++) {
+            if (s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+                ans = ans * 10 + (s.charAt(i) - '0');
 
-        // 1. Ignore leading spaces
-        if (ch == ' ' && num == 0 && !signSeen) {
-            return parse(s, i + 1, num, isNegative, false);
+                // overflow handling
+                if (sign == 1 && ans > Integer.MAX_VALUE) {
+                    return Integer.MAX_VALUE;
+                }
+                if (sign == -1 && -ans < Integer.MIN_VALUE) {
+                    return Integer.MIN_VALUE;
+                }
+            } else {
+                break;
+            }
         }
 
-        // 2. Handle sign only once
-        if ((ch == '+' || ch == '-') && num == 0 && !signSeen) {
-            return parse(s, i + 1, num, ch == '-', true);
-        }
-
-        // 3. Process digit
-        if (ch >= '0' && ch <= '9') {
-            num = num * 10 + (ch - '0');
-
-            // Handle overflow early
-            if (!isNegative && num > Integer.MAX_VALUE)
-                return Integer.MAX_VALUE;
-            if (isNegative && -num < Integer.MIN_VALUE)
-                return Integer.MIN_VALUE;
-
-            return parse(s, i + 1, num, isNegative, true);
-        }
-
-        // 4. Any other character: stop parsing
-        return (int) clamp(num, isNegative);
-    }
-
-    private long clamp(long num, boolean isNegative) {
-        num = isNegative ? -num : num;
-
-        if (num < Integer.MIN_VALUE) return Integer.MIN_VALUE;
-        if (num > Integer.MAX_VALUE) return Integer.MAX_VALUE;
-        return num;
+        return (int) ans * sign;
     }
 }
