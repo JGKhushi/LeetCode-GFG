@@ -1,26 +1,34 @@
 class Solution {
     public int romanToInt(String s) {
-        int n = s.length();
+        Map<Character,Integer> hmap = new HashMap<>();
+        
+        hmap.put( 'I' ,1) ;
+        hmap.put( 'V' ,5) ;
+        hmap.put( 'X' ,10) ;
+        hmap.put( 'L' ,50) ;
+        hmap.put( 'C' ,100) ;
+        hmap.put( 'D' ,500) ;
+        hmap.put( 'M' ,1000) ;
+
         int ans = 0 ;
-         Map<Character, Integer> m = new HashMap<>();
-        
-        m.put('I', 1);
-        m.put('V', 5);
-        m.put('X', 10);
-        m.put('L', 50);
-        m.put('C', 100);
-        m.put('D', 500);
-        m.put('M', 1000);
+        int n= s.length();
+        int i = n-1;
 
-       for(int i = 0 ;i <n ;i++){
-        if(i<n-1 && m.get(s.charAt(i)) < m.get(s.charAt(i+1)) ){
-            ans -= m.get(s.charAt(i));
-        }else{
-            ans += m.get(s.charAt(i));
+        while(i>0){
+            int v = hmap.get(s.charAt(i));
+            int vb = hmap.get(s.charAt(i-1));
+            if(v > vb){
+                ans = ans + v - vb;
+                i-=2;
+               
+            }else{
+                ans = ans + v;
+                i--;
+            }
         }
-        
 
-       }
+        if(i==0)
+        ans += hmap.get(s.charAt(0));
 
         return ans;
     }
