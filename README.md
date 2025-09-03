@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/JGKhushi/LeetCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3227-find-missing-and-repeated-values) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/JGKhushi/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JGKhushi/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0594-longest-harmonious-subsequence) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/JGKhushi/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3748-sort-matrix-by-diagonals](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3748-sort-matrix-by-diagonals) |
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2202-sum-of-k-mirror-numbers](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2998-count-symmetric-integers](https://github.com/JGKhushi/LeetCode/tree/master/2998-count-symmetric-integers) |
 | [3227-find-missing-and-repeated-values](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3227-find-missing-and-repeated-values) |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Enumeration
 |  |
@@ -231,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1656-count-good-triplets](https://github.com/JGKhushi/LeetCode/tree/master/1656-count-good-triplets) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2998-count-symmetric-integers](https://github.com/JGKhushi/LeetCode/tree/master/2998-count-symmetric-integers) |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Greedy
 |  |
@@ -477,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## String Matching
 |  |
