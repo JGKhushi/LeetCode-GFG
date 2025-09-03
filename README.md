@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/JGKhushi/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/JGKhushi/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/JGKhushi/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1917-maximum-average-pass-ratio](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1917-maximum-average-pass-ratio) |
 | [2032-largest-odd-number-in-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2032-largest-odd-number-in-string) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0812-rotate-string) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1078-remove-outermost-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
