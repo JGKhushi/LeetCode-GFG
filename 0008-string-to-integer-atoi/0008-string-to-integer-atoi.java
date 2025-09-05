@@ -1,4 +1,24 @@
 class Solution {
+
+    public long fn(int i ,long ans , int sign , String s , int n ){
+            if(i == n ){
+                return ans ;
+            }
+
+            if (s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+                ans = ans * 10 + (s.charAt(i) - '0');
+                if (sign == 1 && ans > Integer.MAX_VALUE) {
+                    return Integer.MAX_VALUE;
+                }
+                if (sign == -1 && -ans < Integer.MIN_VALUE) {
+                    return Integer.MIN_VALUE;
+                }
+            } else {
+               return ans ;
+            }
+
+            return fn(i+1 ,ans , sign , s , n );
+    }
     public int myAtoi(String s) {
         s = s.trim();
         if (s.length() == 0) return 0;
@@ -15,21 +35,8 @@ class Solution {
             i++;
         }
 
-        for (; i < n; i++) {
-            if (s.charAt(i) >= '0' && s.charAt(i) <= '9') {
-                ans = ans * 10 + (s.charAt(i) - '0');
-
-                // overflow handling
-                if (sign == 1 && ans > Integer.MAX_VALUE) {
-                    return Integer.MAX_VALUE;
-                }
-                if (sign == -1 && -ans < Integer.MIN_VALUE) {
-                    return Integer.MIN_VALUE;
-                }
-            } else {
-                break;
-            }
-        }
+       ans = fn(i ,ans , sign , s , n );
+        
 
         return (int) ans * sign;
     }
