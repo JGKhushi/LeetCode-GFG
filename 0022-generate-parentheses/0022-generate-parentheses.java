@@ -1,7 +1,7 @@
 class Solution {
 
     public static void fn(int n , String s , List<String> ans , int open , int close){
-        if(open > n || close > n || close > open ){
+        if(close > open || open > n || close > n  ){
             return ;
         }
        
