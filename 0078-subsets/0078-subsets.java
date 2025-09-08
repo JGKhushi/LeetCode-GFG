@@ -1,18 +1,23 @@
+import java.util.*;
+
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        int n = nums.length;
-        for(int i=0 ; i<1<<n ; i++){
-            List<Integer> temp = new ArrayList<>();
-            for(int j = 0 ; j<n ;j++){
-                if((i & (1<<j) )!= 0){
-                    temp.add(nums[j]);
-                }
-            }
-             ans.add(temp);
+    public static void fn(int[] nums, List<List<Integer>> lst, List<Integer> al, int i) {
+        // add current subset (copy of al)
+        lst.add(new ArrayList<>(al));
+
+        // explore further elements
+        for (int j = i; j < nums.length; j++) {
+            // include nums[j]
+            al.add(nums[j]);
+            fn(nums, lst, al, j + 1);
+            // backtrack (remove last element)
+            al.remove(al.size() - 1);
         }
+    }
 
-        return ans;
-
+    public List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> lst = new ArrayList<>();
+        fn(nums, lst, new ArrayList<>(), 0);
+        return lst;
     }
 }
