@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JGKhushi/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Sliding Window
 |  |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0967-minimum-falling-path-sum) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2408-number-of-people-aware-of-a-secret) |
 ## Backtracking
 |  |
 | ------- |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2260-divide-a-string-into-groups-of-size-k) |
+| [2408-number-of-people-aware-of-a-secret](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2408-number-of-people-aware-of-a-secret) |
 ## Memoization
 |  |
 | ------- |
