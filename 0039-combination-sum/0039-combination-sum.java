@@ -1,25 +1,39 @@
-import java.util.*;
-
 class Solution {
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        Arrays.sort(candidates);  // ✅ Sort to make pruning effective
-        List<List<Integer>> res = new ArrayList<>();
-        backtrack(candidates, target, 0, new ArrayList<>(), res);
-        return res;
+
+    public static void fn(int[] candidates , int target , List<List<Integer>> arr , List<Integer> curr ,  int i   ){
+        int n = candidates.length;
+        if(i == n ){
+            return ; 
+        }    
+       
+        if(target == 0  ){
+           arr.add(new ArrayList<>(curr));
+           return ;
+        }
+
+        if(target < 0 ){
+            return ; 
+        }
+
+        // pick till it doesn't exceeds 
+        curr.add(candidates[i]);
+        fn(candidates , target - candidates[i]  , arr , curr , i);
+        
+//if it exceeds then we have to backtrack by removing one by one elements
+        curr.remove(curr.size() - 1);
+        fn(candidates , target , arr , curr , i+1 );
+
     }
 
-    private void backtrack(int[] arr, int target, int index, List<Integer> temp, List<List<Integer>> res) {
-        if (target == 0) {
-            res.add(new ArrayList<>(temp));
-            return;
-        }
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+       List<List<Integer>> arr = new ArrayList<>();
 
-        for (int i = index; i < arr.length; i++) {
-            if (arr[i] > target) break;  // ✅ Prune the rest if current number > target
+       Arrays.sort(candidates);
+        
+       fn( candidates , target , arr , new ArrayList<Integer>(),  0);
 
-            temp.add(arr[i]);
-            backtrack(arr, target - arr[i], i, temp, res);  // i, not i+1 because we can reuse
-            temp.remove(temp.size() - 1); // Backtrack
-        }
+       return arr;
+
+       
     }
 }
