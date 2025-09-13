@@ -28,7 +28,7 @@ class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
        List<List<Integer>> arr = new ArrayList<>();
 
-       Arrays.sort(candidates);
+    //    Arrays.sort(candidates);
         
        fn( candidates , target , arr , new ArrayList<Integer>(),  0);
 
