@@ -1,8 +1,9 @@
 # Write your MySQL query statement below
-select mgr.employee_id, mgr.name, COUNT(emp.employee_id) as reports_count, ROUND(AVG(emp.age)) as average_age
-from employees emp join employees mgr
-on emp.reports_to = mgr.employee_id
-group by employee_id
-order by employee_id
+/* Write your PL/SQL query statement below */
+SELECT E1.employee_id, E1.name, COUNT(E2.employee_id)  reports_count,
 
-# Do upvote if you like the solution
+ROUND(AVG(E2.age)) average_age FROM Employees E1 INNER JOIN Employees 
+
+E2 ON E1.employee_id = E2.reports_to GROUP BY E1.employee_id, E1.name 
+
+ORDER BY E1.employee_id
