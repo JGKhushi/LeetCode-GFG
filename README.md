@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2047-find-a-peak-element-ii) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/JGKhushi/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/JGKhushi/LeetCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3227-find-missing-and-repeated-values) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/JGKhushi/LeetCode/tree/master/2050-count-good-numbers) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2202-sum-of-k-mirror-numbers) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2998-count-symmetric-integers](https://github.com/JGKhushi/LeetCode/tree/master/2998-count-symmetric-integers) |
 | [3227-find-missing-and-repeated-values](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3227-find-missing-and-repeated-values) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -336,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/JGKhushi/LeetCode/tree/master/0204-count-primes) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Monotonic Stack
 |  |
 | ------- |
