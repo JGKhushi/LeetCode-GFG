@@ -286,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0038-count-and-say) |
 | [0127-word-ladder](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0242-valid-anagram) |
@@ -317,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0322-coin-change) |
@@ -337,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/JGKhushi/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/JGKhushi/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0216-combination-sum-iii) |
 ## Number Theory
 |  |
