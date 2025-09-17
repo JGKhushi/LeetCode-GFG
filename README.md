@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/JGKhushi/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0038-count-and-say) |
+| [0079-word-search](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0151-reverse-words-in-a-string) |
@@ -338,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/JGKhushi/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/JGKhushi/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/JGKhushi/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0216-combination-sum-iii) |
@@ -383,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0100-same-tree) |
@@ -439,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0036-valid-sudoku) |
 | [0063-unique-paths-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
