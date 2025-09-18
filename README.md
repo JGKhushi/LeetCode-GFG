@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/JGKhushi/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/JGKhushi/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3678-design-task-manager](https://github.com/JGKhushi/LeetCode/tree/master/3678-design-task-manager) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Linked List
 |  |
@@ -492,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0451-sort-characters-by-frequency) |
 | [1917-maximum-average-pass-ratio](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1917-maximum-average-pass-ratio) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/JGKhushi/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [3678-design-task-manager](https://github.com/JGKhushi/LeetCode/tree/master/3678-design-task-manager) |
 ## Trie
 |  |
 | ------- |
@@ -574,4 +576,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3462-vowels-game-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3462-vowels-game-in-a-string) |
+## Design
+|  |
+| ------- |
+| [3678-design-task-manager](https://github.com/JGKhushi/LeetCode/tree/master/3678-design-task-manager) |
+## Ordered Set
+|  |
+| ------- |
+| [3678-design-task-manager](https://github.com/JGKhushi/LeetCode/tree/master/3678-design-task-manager) |
 <!---LeetCode Topics End-->
