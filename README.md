@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3748-sort-matrix-by-diagonals](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3748-sort-matrix-by-diagonals) |
 | [3797-design-spreadsheet](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/JGKhushi/LeetCode/tree/master/3827-implement-router) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JGKhushi/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3827-implement-router](https://github.com/JGKhushi/LeetCode/tree/master/3827-implement-router) |
 ## Sliding Window
 |  |
 | ------- |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/JGKhushi/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/JGKhushi/LeetCode/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/JGKhushi/LeetCode/tree/master/3827-implement-router) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Linked List
 |  |
@@ -489,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1646-kth-missing-positive-number) |
 | [2047-find-a-peak-element-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2047-find-a-peak-element-ii) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
+| [3827-implement-router](https://github.com/JGKhushi/LeetCode/tree/master/3827-implement-router) |
 ## Simulation
 |  |
 | ------- |
@@ -597,8 +601,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3678-design-task-manager](https://github.com/JGKhushi/LeetCode/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/JGKhushi/LeetCode/tree/master/3827-implement-router) |
 ## Ordered Set
 |  |
 | ------- |
 | [3678-design-task-manager](https://github.com/JGKhushi/LeetCode/tree/master/3678-design-task-manager) |
+| [3827-implement-router](https://github.com/JGKhushi/LeetCode/tree/master/3827-implement-router) |
 <!---LeetCode Topics End-->
