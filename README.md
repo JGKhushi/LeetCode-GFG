@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/JGKhushi/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0137-single-number-ii](https://github.com/JGKhushi/LeetCode/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0036-valid-sudoku) |
 | [0127-word-ladder](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/JGKhushi/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/JGKhushi/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/JGKhushi/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -456,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/JGKhushi/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
