@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/JGKhushi/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/JGKhushi/LeetCode/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/JGKhushi/LeetCode/tree/master/0075-sort-colors) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/JGKhushi/LeetCode/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/JGKhushi/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0169-majority-element) |
