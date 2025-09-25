@@ -1,40 +1,26 @@
-import java.util.*;
-
 class Solution {
-    // helper recursive function
-    private int dfs(List<List<Integer>> triangle, int i, int j, int[][] dp) {
-        int n = triangle.size();
 
-        // base case: last row
-        if (i == n - 1) {
+    public static int fn(int i , int j , List<List<Integer>> triangle , int[][] dp){
+        int n = triangle.size();
+        if(i == n-1){
             return triangle.get(i).get(j);
         }
+        if(dp[i][j] != Integer.MAX_VALUE){return dp[i][j];}
 
-        // memoization check
-        if (dp[i][j] != Integer.MAX_VALUE) {
-            return dp[i][j];
-        }
+        int down = fn(i+1 , j , triangle , dp);
+        int diag = fn(i+1 , j+1 , triangle , dp);
 
-        // move to same index (down)
-        int down = dfs(triangle, i + 1, j, dp);
-
-        // move to next index (down-right)
-        int diag = dfs(triangle, i + 1, j + 1, dp);
-
-        // store and return
-        dp[i][j] = triangle.get(i).get(j) + Math.min(down, diag);
+        dp[i][j] = triangle.get(i).get(j) + Math.min(down , diag);
         return dp[i][j];
     }
-
     public int minimumTotal(List<List<Integer>> triangle) {
-        int n = triangle.size();
-        int[][] dp = new int[n][n];
-
-        // initialize dp with MAX_VALUE
-        for (int[] row : dp) {
-            Arrays.fill(row, Integer.MAX_VALUE);
+     int n = triangle.size();
+     int dp[][] = new int[n][n]; 
+     for(int i =  0 ; i< n ; i++){
+        for(int j = 0 ; j< n ; j++){
+            dp[i][j] = Integer.MAX_VALUE;
         }
-
-        return dfs(triangle, 0, 0, dp);
+     } 
+     return fn(0,0,triangle,dp); 
     }
 }
