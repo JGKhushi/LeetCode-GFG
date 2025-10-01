@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/JGKhushi/LeetCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2591-frog-jump-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2591-frog-jump-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3227-find-missing-and-repeated-values) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/JGKhushi/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1917-maximum-average-pass-ratio) |
 | [2032-largest-odd-number-in-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2032-largest-odd-number-in-string) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
+| [2591-frog-jump-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2591-frog-jump-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 ## String
 |  |
@@ -527,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1646-kth-missing-positive-number) |
 | [2047-find-a-peak-element-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2047-find-a-peak-element-ii) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
+| [2591-frog-jump-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2591-frog-jump-ii) |
 | [3827-implement-router](https://github.com/JGKhushi/LeetCode/tree/master/3827-implement-router) |
 ## Simulation
 |  |
