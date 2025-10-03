@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
 | [0322-coin-change](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0322-coin-change) |
+| [0407-trapping-rain-water-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0127-word-ladder](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0127-word-ladder) |
 | [0322-coin-change](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0322-coin-change) |
+| [0407-trapping-rain-water-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -497,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
+| [0407-trapping-rain-water-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/JGKhushi/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0733-flood-fill) |
@@ -551,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0023-merge-k-sorted-lists) |
+| [0407-trapping-rain-water-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0407-trapping-rain-water-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0451-sort-characters-by-frequency) |
 | [1917-maximum-average-pass-ratio](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1917-maximum-average-pass-ratio) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/JGKhushi/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
