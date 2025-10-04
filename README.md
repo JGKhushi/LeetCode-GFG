@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0004-median-of-two-sorted-arrays) |
+| [0011-container-with-most-water](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0014-longest-common-prefix) |
 | [0018-4sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0018-4sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/JGKhushi/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
@@ -307,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0011-container-with-most-water) |
 | [0410-split-array-largest-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/JGKhushi/LeetCode/tree/master/0611-valid-triangle-number) |
