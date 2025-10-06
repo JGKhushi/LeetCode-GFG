@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1656-count-good-triplets](https://github.com/JGKhushi/LeetCode/tree/master/1656-count-good-triplets) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1917-maximum-average-pass-ratio](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1917-maximum-average-pass-ratio) |
+| [2016-reduction-operations-to-make-the-array-elements-equal](https://github.com/JGKhushi/LeetCode/tree/master/2016-reduction-operations-to-make-the-array-elements-equal) |
 | [2047-find-a-peak-element-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2047-find-a-peak-element-ii) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/JGKhushi/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JGKhushi/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [2016-reduction-operations-to-make-the-array-elements-equal](https://github.com/JGKhushi/LeetCode/tree/master/2016-reduction-operations-to-make-the-array-elements-equal) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/JGKhushi/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2887-sort-vowels-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2887-sort-vowels-in-a-string) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
