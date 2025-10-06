@@ -10,81 +10,36 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode ans = new ListNode();
-        ListNode start = ans;
-        int carry = 0;
-        ListNode A = l1;
-        ListNode B = l2;
-        int sum = 0 ;
-        
+        ListNode temp1 = l1 ;
+        ListNode temp2 = l2 ;
+        ListNode ans = new ListNode(0);
+        ListNode result = ans;
 
-        while(A != null && B!= null){
-            sum = A.val + B.val + carry;
-            if(sum < 10){
-                ans.val = sum ;
-                sum = 0;
-                carry = 0;
-            }
-            else{
-                carry = 1 ;
-                 ans.val  = sum % 10 ;
-                 sum = 0;
-            }
-           if(A.next != null || B.next != null){
-           ans.next = new ListNode();
-           ans = ans.next;
-           }
-           
+        int carry = 0 ;
+        while(temp1 != null || temp2 != null ){
+            int t1 =0 , t2 = 0;
+            if(temp1 != null ) t1 = temp1.val;
+            if(temp2 != null ) t2 = temp2.val;
+            int sum = t1 + t2 + carry;
+            ListNode nn = new ListNode();
+            nn.val = sum % 10 ;
+            ans.next = nn ;
+            ans = ans.next ;
+          
+            if(sum > 9)carry = sum/10 ; 
+            else carry = 0 ;
 
-            A = A.next;
-            B = B.next;
-
-        }
-       
-            while(A != null){
-              sum = A.val + carry;
-            if(sum < 10){
-                ans.val = sum ;
-                sum = 0;
-                 carry = 0;
-            }
-            else{
-                carry = 1 ;
-                 ans.val  = sum % 10 ;
-                 sum = 0;
-            }
-           if(A.next != null ){
-           ans.next = new ListNode();
-           ans = ans.next;
-           }
-           A = A.next;
-           
-            }
-            
-        
-        while(B != null){
-            sum = B.val + carry;
-            if(sum < 10){
-                ans.val = sum ;
-                sum = 0;
-                carry = 0;
-            }
-            else{
-                carry = 1 ;
-                 ans.val  = sum % 10 ;
-                 sum = 0;
-            }
-           if( B.next != null){
-           ans.next = new ListNode();
-           ans = ans.next;
-           }
-        
-            B = B.next;
+            if(temp1 != null)temp1 = temp1.next ;
+            if(temp2 != null)temp2 = temp2.next ;            
         }
 
-    if(carry == 1 && A == null && B== null){
-        ans.next = new ListNode(1);
-    }
-        return start;
+        if(carry > 0 ){
+            ListNode nn = new ListNode();
+            nn.val = carry;
+            ans.next = nn ;
+            ans = ans.next ;
+        }
+
+        return result.next;
     }
 }
