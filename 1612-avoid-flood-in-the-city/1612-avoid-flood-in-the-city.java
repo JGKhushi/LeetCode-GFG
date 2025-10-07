@@ -1,50 +1,30 @@
-import java.util.*;
-
 class Solution {
     public int[] avoidFlood(int[] rains) {
-        HashMap<Integer, Integer> hmap = new HashMap<>();
         int n = rains.length;
-        int ans[] = new int[n];
-        ArrayList<Integer> zi = new ArrayList<>();
-
+        int[] ans = new int[n];
+        
+        HashMap<Integer, Integer> full = new HashMap<>(); // lake -> last day filled
+        TreeSet<Integer> dryDays = new TreeSet<>(); // indexes of 0s
+        
         for (int i = 0; i < n; i++) {
-
             if (rains[i] == 0) {
-                // store index of zero day
-                zi.add(i);
-                continue;  // move to next day
-            }
-
-            // if lake already full -> need to dry before
-            if (hmap.containsKey(rains[i])) {
-                // find a zero day before current i
-                boolean dried = false;
-
-                for (int j = 0; j < zi.size(); j++) {
-                    int idx = zi.get(j);
-                    if (idx > hmap.get(rains[i])) {
-                        ans[idx] = rains[i]; // dry that lake
-                        zi.remove(j);         // remove that dry day
-                        dried = true;
-                        break;
-                    }
+                dryDays.add(i);    // store dry day index
+                ans[i] = 1;        // default
+            } else {
+                int lake = rains[i];
+                ans[i] = -1;       // raining day
+                
+                if (full.containsKey(lake)) {
+                    // Find next dry day after lake was last filled
+                    Integer dry = dryDays.higher(full.get(lake));
+                    if (dry == null) return new int[0]; // no dry day available → flood
+                    
+                    ans[dry] = lake;   // dry that lake on this dry day
+                    dryDays.remove(dry);
                 }
-
-                if (!dried) {
-                    return new int[] {}; // no valid dry day
-                }
+                full.put(lake, i); // update last filled day
             }
-
-            // mark lake full on this day
-            hmap.put(rains[i], i);
-            ans[i] = -1;
         }
-
-        // fill remaining zero days with any lake (say 1)
-        for (int i : zi) {
-            ans[i] = 1;
-        }
-
         return ans;
     }
 }
