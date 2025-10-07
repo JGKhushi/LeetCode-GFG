@@ -1,52 +1,64 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListListListNode {
+ *     int val;
+ *     ListListNode next;
+ *     ListListNode() {}
+ *     ListListNode(int val) { this.val = val; }
+ *     ListListNode(int val, ListListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
+        if (head == null || k <= 1){
+            return head;
+        }
         ListNode temp = head;
-        ListNode prevLast = null;
+        ListNode prevLast = null ;
         ListNode newHead = null;
 
-        while (temp != null) {
-            // Step 1: Check if at least k nodes remain from temp
-            ListNode kThNode = temp;
-            int count = 1;
-            while (count < k && kThNode != null) {
-                kThNode = kThNode.next;
+        while(temp != null){
+            ListNode kThListNode = temp ;
+            int count  = 1;
+
+            while(count < k && kThListNode != null){
+                kThListNode = kThListNode.next ;
                 count++;
             }
 
-            // If there are less than k nodes left, don't reverse
-            if (kThNode == null) {
-                if (prevLast != null) {
-                    prevLast.next = temp;
+            if(kThListNode == null){
+                if(prevLast != null){
+                    prevLast.next = temp ;
                 }
                 break;
             }
 
-            // Step 2: Store the next group's head and break the current group
-            ListNode nextNode = kThNode.next;
-            kThNode.next = null;
+            ListNode nextListNode = kThListNode.next;
+            kThListNode.next = null;
 
-            // Step 3: Reverse the current group
             ListNode prev = null;
-            ListNode curr = temp;
-            while (curr != null) {
-                ListNode front = curr.next;
+            ListNode curr = temp ;
+
+            while(curr != null){
+                ListNode front = curr.next ;
                 curr.next = prev;
-                prev = curr;
-                curr = front;
+                prev = curr ;
+                curr = front ;
             }
 
-            // Step 4: Connect previous group's tail to new head of reversed group
-            if (newHead == null) {
-                newHead = kThNode; // First group becomes new head
-            } else {
-                prevLast.next = kThNode;
+            if(newHead  == null){
+                newHead = kThListNode ;
+            }
+            else{
+                prevLast.next = kThListNode ;
             }
 
-            // Step 5: Update prevLast and move temp to next group
             prevLast = temp;
-            temp = nextNode;
+            temp = nextListNode ;
+
         }
 
-        return newHead != null ? newHead : head;
+        // return newHead != null ? newHead : head;
+        return newHead;
     }
 }
