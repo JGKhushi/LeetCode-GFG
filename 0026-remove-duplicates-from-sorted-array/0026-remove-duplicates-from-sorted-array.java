@@ -3,11 +3,11 @@ class Solution {
         int n = nums.length , ans = 1 , prev = 0 , i =  1 ;
         while(i<n){
             if(nums[i] != nums[prev]){
-                nums[ans] = nums[i];
-                ans++;
+                nums[ans++] = nums[i];
+                
             }
-                prev = i ;
-                i++;
+                prev =  i++ ;
+               
         }
 
         return ans ;
