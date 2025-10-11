@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0145-binary-tree-postorder-traversal](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0145-binary-tree-postorder-traversal) |
+| [0155-min-stack](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/JGKhushi/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/JGKhushi/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/JGKhushi/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -681,6 +682,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0155-min-stack) |
 | [3678-design-task-manager](https://github.com/JGKhushi/LeetCode/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/JGKhushi/LeetCode/tree/master/3827-implement-router) |
