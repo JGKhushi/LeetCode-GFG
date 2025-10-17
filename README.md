@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/JGKhushi/LeetCode/tree/master/0137-single-number-ii) |
 | [0231-power-of-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0231-power-of-two) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/JGKhushi/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JGKhushi/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2887-sort-vowels-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2887-sort-vowels-in-a-string) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3462-vowels-game-in-a-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3462-vowels-game-in-a-string) |
 | [3617-find-the-original-typed-string-i](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3617-find-the-original-typed-string-i) |
@@ -437,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Backtracking
@@ -738,5 +741,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bitmask
 |  |
 | ------- |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 <!---LeetCode Topics End-->
