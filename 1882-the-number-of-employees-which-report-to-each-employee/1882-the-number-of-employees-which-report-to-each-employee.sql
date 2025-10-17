@@ -1,20 +1,6 @@
 # Write your MySQL query statement below
-/* Write your PL/SQL query statement below */
--- SELECT E1.employee_id, E1.name, COUNT(E2.employee_id)  reports_count,
-
--- ROUND(AVG(E2.age)) average_age FROM Employees E1 INNER JOIN Employees 
-
--- E2 ON E1.employee_id = E2.reports_to GROUP BY E1.employee_id, E1.name 
-
--- ORDER BY E1.employee_id
-
-SELECT E1.employee_id,
-       E1.name,
-       COUNT(E2.employee_id)        AS reports_count,
-       ROUND(AVG(E2.age))          AS average_age
-FROM Employees E1
-LEFT JOIN Employees E2
-  ON E2.reports_to = E1.employee_id
-GROUP BY E1.employee_id, E1.name
-HAVING COUNT(E2.employee_id) > 0
-ORDER BY E1.employee_id;
+SELECT e1.employee_id , e1.name , count( e2.employee_id ) as reports_count ,   ROUND(AVG(e2.age)) AS average_age
+from Employees as e1 LEFT JOIN  Employees as e2
+on  e1.employee_id =  e2.reports_to 
+GROUP BY e1.employee_id  having reports_count > 0
+order by e1.employee_id ;  
