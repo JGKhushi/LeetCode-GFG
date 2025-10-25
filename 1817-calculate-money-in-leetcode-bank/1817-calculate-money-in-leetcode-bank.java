@@ -1,7 +1,7 @@
 class Solution {
     public int totalMoney(int n) {
        int ans =  0 ;
-       int i = 0  ; 
+       int i = 1  ; 
        int add = 1 ;
         int mon = 0 ;
        while(i <= n){
@@ -11,6 +11,6 @@ class Solution {
         i++;
        } 
 
-       return ans-1 ;
+       return ans ;
     }
 }
