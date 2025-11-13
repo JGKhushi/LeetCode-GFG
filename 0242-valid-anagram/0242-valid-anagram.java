@@ -20,7 +20,7 @@ class Solution {
             char k = e.getKey();
             int v = e.getValue();
 
-            if (!hmap2.containsKey(k) || !hmap2.get(k).equals(v)) {
+            if (!hmap2.containsKey(k) || hmap2.get(k) != v ) {
                 return false;
             }
         }
