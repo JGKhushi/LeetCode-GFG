@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
+| [0283-move-zeroes](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0410-split-array-largest-sum) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0165-compare-version-numbers) |
 | [0189-rotate-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/JGKhushi/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/JGKhushi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0653-two-sum-iv-input-is-a-bst) |
