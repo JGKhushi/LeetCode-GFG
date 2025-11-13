@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0407-trapping-rain-water-ii) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/JGKhushi/LeetCode/tree/master/0137-single-number-ii) |
 | [0231-power-of-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0268-missing-number) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/JGKhushi/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/JGKhushi/LeetCode/tree/master/0496-next-greater-element-i) |
@@ -326,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/JGKhushi/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 | [0594-longest-harmonious-subsequence](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0594-longest-harmonious-subsequence) |
@@ -363,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/JGKhushi/LeetCode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0268-missing-number) |
 | [0830-largest-triangle-area](https://github.com/JGKhushi/LeetCode/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1018-largest-perimeter-triangle) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/JGKhushi/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -669,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0540-single-element-in-a-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/JGKhushi/LeetCode/tree/master/0611-valid-triangle-number) |
