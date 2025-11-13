@@ -10,7 +10,7 @@ class Solution {
             while(a<till && common.charAt(a) == word.charAt(a)){
                 a++;
             }
-            if(common == "")return "";
+            // if(common == "")return "";
            common = common.substring(0 , a);
         }
 
