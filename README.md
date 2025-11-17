@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/JGKhushi/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1612-avoid-flood-in-the-city](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1612-avoid-flood-in-the-city) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JGKhushi/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
