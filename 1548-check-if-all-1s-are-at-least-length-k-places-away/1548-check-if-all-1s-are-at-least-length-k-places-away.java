@@ -13,7 +13,6 @@ class Solution {
             if(cnt >= 2){
                dist = Math.min(dist , second - first - 1 ) ;
             }
-            System.out.println(first + " i" + i + " dist" + dist + " " + second) ;
             }
     
         }
