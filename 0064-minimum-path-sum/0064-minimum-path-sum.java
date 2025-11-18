@@ -15,7 +15,7 @@ class Solution {
             left = grid[m][n] + solve(grid , dp , m , n - 1 , sum);
         }
         if(m > 0){
-           up  =grid[m][n] +  solve(grid , dp , m-1 , n , sum);
+           up  = grid[m][n] +  solve(grid , dp , m-1 , n , sum);
         }
 
 
@@ -32,8 +32,33 @@ class Solution {
         for(int i  = 0 ; i < m ; i++){
             Arrays.fill(dp[i] , Integer.MAX_VALUE) ;
         }
-        int ans = solve(grid , dp , m -1, n-1 , 0 );
+        // int ans = solve(grid , dp , m -1, n-1 , 0 );
+        // return ans ;
 
-        return ans ;
+        for(int i = 0 ; i  < m ; i++){
+            for(int j =0 ; j <n ; j++ ){
+                if(i == 0 && j == 0 ){
+                    dp[i][j] = grid[0][0];
+                    continue ;
+                }
+
+                int left = Integer.MAX_VALUE ;
+                int up = Integer.MAX_VALUE;
+
+                if(i > 0 ){
+                    left = grid[i][j] + dp[i-1][j] ;
+                }
+                if(j > 0 ){
+                    up = grid[i][j] + dp[i][j-1] ;
+                }
+
+                dp[i][j] = Math.min(left , up);
+
+
+            }
+        }
+
+        return dp[m-1][n-1];
+
     }
 }
