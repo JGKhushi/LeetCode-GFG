@@ -369,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/JGKhushi/LeetCode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/JGKhushi/LeetCode/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0189-rotate-array) |
@@ -495,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/JGKhushi/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/JGKhushi/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0120-triangle) |
@@ -842,6 +844,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0062-unique-paths) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/JGKhushi/LeetCode-GFG/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/JGKhushi/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/JGKhushi/LeetCode-GFG/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
