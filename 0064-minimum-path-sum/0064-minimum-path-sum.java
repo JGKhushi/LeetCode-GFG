@@ -4,23 +4,22 @@ class Solution {
         if(m == 0 && n== 0){
             return grid[0][0] ;
         }
-          if (m< 0 || n < 0)
-            return (int) 1e9;
-            
+        
         if(dp[m][n] != Integer.MAX_VALUE){
             return  dp[m][n];
         }
 
-        int left = 0 ;
-        int up = 0 ;
-        
-            up = grid[m][n] + solve(grid , dp , m , n - 1 , sum);       
-       
-           left  = grid[m][n] +solve(grid , dp , m-1 , n , sum);
-        
+        int left = Integer.MAX_VALUE ;
+        int up = Integer.MAX_VALUE ;
+        if(n > 0 ){
+            left = grid[m][n] + solve(grid , dp , m , n - 1 , sum);
+        }
+        if(m > 0){
+           up  =grid[m][n] +  solve(grid , dp , m-1 , n , sum);
+        }
 
 
-        dp[m][n] = Math.min(left , up);
+        dp[m][n] = Math.min(left ,up);
 
         return dp[m][n] ;
     }
