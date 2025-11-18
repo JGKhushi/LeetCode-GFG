@@ -27,38 +27,41 @@ class Solution {
         int m = grid.length ;
         int n = grid[0].length;
 
-        int dp[][] = new int[m][n];
+        int dp[] = new int[n];
 
-        for(int i  = 0 ; i < m ; i++){
-            Arrays.fill(dp[i] , Integer.MAX_VALUE) ;
-        }
+       
+            Arrays.fill(dp , Integer.MAX_VALUE) ;
+        
         // int ans = solve(grid , dp , m -1, n-1 , 0 );
         // return ans ;
 
         for(int i = 0 ; i  < m ; i++){
+            int temp[] = new int[n] ; 
             for(int j =0 ; j <n ; j++ ){
                 if(i == 0 && j == 0 ){
-                    dp[i][j] = grid[0][0];
+                    temp[j] = grid[0][0];
                     continue ;
                 }
 
                 int left = Integer.MAX_VALUE ;
                 int up = Integer.MAX_VALUE;
 
-                if(i > 0 ){
-                    left = grid[i][j] + dp[i-1][j] ;
-                }
+                
                 if(j > 0 ){
-                    up = grid[i][j] + dp[i][j-1] ;
+                    left =  temp[j-1];
+                }
+                if(i > 0){
+                    up =  dp[j] ;
                 }
 
-                dp[i][j] = Math.min(left , up);
+                temp[j] =  grid[i][j] + Math.min(left , up);
 
 
             }
+            dp = temp ;
         }
 
-        return dp[m-1][n-1];
+        return dp[n-1];
 
     }
 }
