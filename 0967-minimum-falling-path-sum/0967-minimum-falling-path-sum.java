@@ -54,7 +54,7 @@ class Solution {
                 down = dp[i-1][j] ;
 
 
-                dp[i][j] = Math.min(dp[i][j] , matrix[i][j] + Math.min(dl , Math.min(down , dr))) ;                
+                dp[i][j] = matrix[i][j] + Math.min(dl , Math.min(down , dr));                
             }
         }
         int ans = Integer.MAX_VALUE;
