@@ -1,6 +1,6 @@
 class Solution {
     public int findFinalValue(int[] arr, int original) {
-        Arrays.sort(arr);
+        
         int n  = arr.length;
         HashMap<Integer ,Integer> hmap = new HashMap<>() ;
 
@@ -13,9 +13,7 @@ class Solution {
             original *= 2; 
         }
 
-
-
-return original ;
+        return original ;
          
     }
 }
