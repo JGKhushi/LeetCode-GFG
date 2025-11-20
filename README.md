@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/JGKhushi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0733-flood-fill](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0733-flood-fill) |
+| [0759-set-intersection-size-at-least-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0759-set-intersection-size-at-least-two) |
 | [0792-binary-search](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/JGKhushi/LeetCode/tree/master/0830-largest-triangle-area) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 | [0594-longest-harmonious-subsequence](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0594-longest-harmonious-subsequence) |
 | [0611-valid-triangle-number](https://github.com/JGKhushi/LeetCode/tree/master/0611-valid-triangle-number) |
+| [0759-set-intersection-size-at-least-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0759-set-intersection-size-at-least-two) |
 | [1018-largest-perimeter-triangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -427,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/JGKhushi/LeetCode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/JGKhushi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0678-valid-parenthesis-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0678-valid-parenthesis-string) |
+| [0759-set-intersection-size-at-least-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0759-set-intersection-size-at-least-two) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1018-largest-perimeter-triangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1018-largest-perimeter-triangle) |
 | [1612-avoid-flood-in-the-city](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1612-avoid-flood-in-the-city) |
