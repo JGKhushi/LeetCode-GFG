@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/JGKhushi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/JGKhushi/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0759-set-intersection-size-at-least-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0759-set-intersection-size-at-least-two) |
 | [1018-largest-perimeter-triangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JGKhushi/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2016-reduction-operations-to-make-the-array-elements-equal](https://github.com/JGKhushi/LeetCode/tree/master/2016-reduction-operations-to-make-the-array-elements-equal) |
@@ -434,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0759-set-intersection-size-at-least-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0759-set-intersection-size-at-least-two) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1018-largest-perimeter-triangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1018-largest-perimeter-triangle) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1612-avoid-flood-in-the-city](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1612-avoid-flood-in-the-city) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JGKhushi/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/JGKhushi/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -524,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/JGKhushi/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0967-minimum-falling-path-sum) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/JGKhushi/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/JGKhushi/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
