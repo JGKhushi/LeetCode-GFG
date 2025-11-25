@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0966-binary-subarrays-with-sum) |
 | [1006-vowel-spellchecker](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1006-vowel-spellchecker) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/JGKhushi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1264-maximum-number-of-words-you-can-type) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0268-missing-number) |
 | [0830-largest-triangle-area](https://github.com/JGKhushi/LeetCode/tree/master/0830-largest-triangle-area) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1018-largest-perimeter-triangle) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/JGKhushi/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
