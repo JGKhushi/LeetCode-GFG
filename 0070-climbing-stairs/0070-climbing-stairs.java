@@ -20,14 +20,24 @@ class Solution {
     }
 
     public int climbStairs(int n) {
-        int dp[] = new int[n] ;
-        Arrays.fill(dp , - 1) ;
-        int ans = fn(n , 0 , 0 ,dp);
+        // int dp[] = new int[n] ;
+        // Arrays.fill(dp , - 1) ;
+        // int ans = fn(n , 0 , 0 ,dp);
 
-        return ans ;
+        // return ans ;
+        if(n <= 3){
+            return n ;
+        }
+        int a = 1 ;
+        int b = 2 ;
+        int ans = 0 ;
+        for(int i = 3 ; i <= n  ; i++){
+            ans = a+ b ;
+            a = b ;
+            b= ans ;
+        }
 
-
-
+return ans ;
 
     }
 }
