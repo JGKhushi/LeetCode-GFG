@@ -30,8 +30,27 @@ class Solution {
             Arrays.fill(dp[i] , -1) ; 
         }
 
-        int ans =  fn(grid,dp , m-1 , n-1 );
+        // int ans =  fn(grid,dp , m-1 , n-1 );
+          dp[0][0] = grid[0][0]; 
+        // return ans ;
+        for (int j = 1; j < n; j++) {
+        dp[0][j] = grid[0][j] + dp[0][j - 1];
+    }
 
-        return ans ;
+    // fill first column
+    for (int i = 1; i < m; i++) {
+        dp[i][0] = grid[i][0] + dp[i - 1][0];
+    }
+
+    // fill rest
+    for (int i = 1; i < m; i++) {
+        for (int j = 1; j < n; j++) {
+            int fromLeft = dp[i][j - 1];
+            int fromUp = dp[i - 1][j];
+            dp[i][j] = grid[i][j] + Math.min(fromLeft, fromUp);
+        }
+    }
+
+    return dp[m-1][n-1];
     }
 }
