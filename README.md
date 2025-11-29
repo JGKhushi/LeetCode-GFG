@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/JGKhushi/LeetCode/tree/master/0830-largest-triangle-area) |
 | [0907-koko-eating-bananas](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0907-koko-eating-bananas) |
+| [0931-minimum-falling-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0931-minimum-falling-path-sum) |
 | [0940-fruit-into-baskets](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/JGKhushi/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0966-binary-subarrays-with-sum) |
@@ -534,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0474-ones-and-zeroes](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0474-ones-and-zeroes) |
 | [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0678-valid-parenthesis-string) |
+| [0931-minimum-falling-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/JGKhushi/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0967-minimum-falling-path-sum) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -689,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0794-swim-in-rising-water) |
+| [0931-minimum-falling-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0931-minimum-falling-path-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/JGKhushi/LeetCode-GFG/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/JGKhushi/LeetCode-GFG/tree/master/1073-number-of-enclaves) |
