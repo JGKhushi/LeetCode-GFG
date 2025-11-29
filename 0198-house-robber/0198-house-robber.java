@@ -1,34 +1,31 @@
 class Solution {
 
-    public int fn(int nums[] , int n , int[] dp ,  int i   ){
-       if(i >= n){
-        return 0 ;
-       }
-     
-       if(dp[i] != -1){
-         return dp[i] ;
-       }
+    public int fn(int[] nums , int[] dp , int i   ){
+        int n = nums.length;
+        if(i >= n ){
+            return 0 ;
+        }
 
-       int npick =  fn(nums , n , dp , i+1);
-       int pick =    nums[i] + fn(nums , n , dp , i+2 );
+        if(dp[i] != -1){
+            return dp[i] ;
+        }
 
+        int pick = nums[i] + fn(nums , dp , i + 2);
 
-        dp[i] =  Math.max(npick , pick);
+        int npick =  fn(nums , dp , i+1);
 
-        return dp[i];
+        dp[i] = Math.max(pick , npick) ;
+
+        return dp[i] ; 
     }
 
     public int rob(int[] nums) {
-       int n = nums.length;
-       if(n==1)return nums[0];
+        int n = nums.length ;
+        int dp[] = new int[n] ;
 
-       int dp[] = new int[n+1] ;
         Arrays.fill(dp , -1);
-
-        int ans =  fn(nums ,  n  ,dp , 0 ) ;
+        int ans = fn(nums , dp , 0 ) ;
 
         return ans;
-     
-
     }
 }
